@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block content %}
+<h1>The results are in...</h1>
+
+
+
+{%for event in events_list%}
+<div>
+    <p>
+        <b>{{ event.name }}:</b> {{ event.description }}, {{ event.venue }}, {{ event.date }}, {{ event.guests }}.
+    </p>
+</div>
+{% endfor %} {% endblock %}

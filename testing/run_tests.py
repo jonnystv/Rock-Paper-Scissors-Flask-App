@@ -1,7 +1,7 @@
 import unittest
 
-# from tests.rps_game_test import TestGame
 from tests.player_test import TestPlayer
+from tests.game_test import TestRpsGame
 
 
 if __name__ == '__main__':
